@@ -16,7 +16,7 @@ use App\Http\Controllers\CreditController;
 |
 */
 
-Auth::routes(['register' => false]);
+//Auth::routes(['register' => false]);
 
 Route::post('/credits', [CreditController::class,'store'])->name('credits.store');
 Route::get('/credits', [CreditController::class,'index'])->name('credits.index');
