@@ -6,7 +6,8 @@
             <section class="signup-wrap wave-left">
                 <div class="signup">
                     <div class="container signup__inner gradient-bg">
-                        <form action="#" class="signup__form form">
+                        <form action="{{ route('credits.store') }}" method="post" class="signup__form form">
+                            @csrf
                             <h2 class="signup__form__title section-title">
                                 Sign Up
                             </h2>
@@ -28,8 +29,9 @@
                                             <input
                                                 type="radio"
                                                 class="form__input"
-                                                name="credit-card-no"
+                                                name="amount"
                                                 id="one"
+                                                value="1"
                                             />
                                             <label for="one">1</label>
                                         </div>
@@ -40,8 +42,9 @@
                                             <input
                                                 type="radio"
                                                 class="form__input"
-                                                name="credit-card-no"
+                                                name="amount"
                                                 id="two"
+                                                value="2"
                                             />
                                             <label for="two">2</label>
                                         </div>
@@ -52,8 +55,9 @@
                                             <input
                                                 class="form__input"
                                                 type="radio"
-                                                name="credit-card-no"
+                                                name="amount"
                                                 id="three"
+                                                value="3"
                                             />
                                             <label for="three">3</label>
                                         </div>
@@ -64,8 +68,9 @@
                                             <input
                                                 class="form__input"
                                                 type="radio"
-                                                name="credit-card-no"
+                                                name="amount"
                                                 id="more-than-3"
+                                                value="4 or more"
                                             />
                                             <label for="more-than-3"
                                                 >4 or more</label
@@ -97,8 +102,9 @@
                                             <input
                                                 type="checkbox"
                                                 class="form__input"
-                                                name="banks"
+                                                name="bank_name"
                                                 id="BMO"
+                                                value="BMO"
                                             />
                                             <label for="BMO">BMO</label>
                                         </div>
@@ -109,8 +115,9 @@
                                             <input
                                                 type="checkbox"
                                                 class="form__input"
-                                                name="banks"
+                                                name="bank_name"
                                                 id="Capital-one"
+                                                value="Capital One"
                                             />
                                             <label for="Capital-one"
                                                 >Capital One</label
@@ -123,8 +130,9 @@
                                             <input
                                                 class="form__input"
                                                 type="checkbox"
-                                                name="banks"
+                                                name="bank_name"
                                                 id="CIBC"
+                                                value="CIBC"
                                             />
                                             <label for="CIBC">CIBC</label>
                                         </div>
@@ -135,8 +143,9 @@
                                             <input
                                                 class="form__input"
                                                 type="checkbox"
-                                                name="banks"
+                                                name="bank_name"
                                                 id="National-bank"
+                                                value="National Bank"
                                             />
                                             <label for="National-bank"
                                                 >National Bank
@@ -149,8 +158,9 @@
                                             <input
                                                 type="checkbox"
                                                 class="form__input"
-                                                name="banks"
+                                                name="bank_name"
                                                 id="Neo-financial"
+                                                value="Neo Financial"
                                             />
                                             <label for="Neo-financial"
                                                 >Neo Financial
@@ -163,8 +173,9 @@
                                             <input
                                                 type="checkbox"
                                                 class="form__input"
-                                                name="banks"
+                                                name="bank_name"
                                                 id="PC-Financial"
+                                                value="PC Financial"
                                             />
                                             <label for="PC-Financial"
                                                 >PC Financial
@@ -177,8 +188,9 @@
                                             <input
                                                 class="form__input"
                                                 type="checkbox"
-                                                name="banks"
+                                                name="bank_name"
                                                 id="RBC"
+                                                value="RBC"
                                             />
                                             <label for="RBC">RBC</label>
                                         </div>
@@ -189,8 +201,9 @@
                                             <input
                                                 class="form__input"
                                                 type="checkbox"
-                                                name="banks"
+                                                name="bank_name"
                                                 id="Scotiabank"
+                                                value="Scotiabank"
                                             />
                                             <label for="Scotiabank"
                                                 >Scotiabank
@@ -203,8 +216,9 @@
                                             <input
                                                 type="checkbox"
                                                 class="form__input"
-                                                name="banks"
+                                                name="bank_name"
                                                 id="Tim-hortons"
+                                                value="Tim Hortons"
                                             />
                                             <label for="Tim-hortons"
                                                 >Tim Hortons MasterCard</label
@@ -217,8 +231,9 @@
                                             <input
                                                 type="checkbox"
                                                 class="form__input"
-                                                name="banks"
+                                                name="bank_name"
                                                 id="Tangerine"
+                                                value="Tangerine"
                                             />
                                             <label for="Tangerine"
                                                 >Tangerine MasterCard</label
@@ -231,8 +246,9 @@
                                             <input
                                                 class="form__input"
                                                 type="checkbox"
-                                                name="banks"
+                                                name="bank_name"
                                                 id="Triangle"
+                                                value="Triangle"
                                             />
                                             <label for="Triangle"
                                                 >Triangle</label
@@ -245,8 +261,9 @@
                                             <input
                                                 class="form__input"
                                                 type="checkbox"
-                                                name="banks"
+                                                name="bank_name"
                                                 id="Walmart"
+                                                value="Walmart"
                                             />
                                             <label for="Walmart"
                                                 >Walmart MasterCard
@@ -280,6 +297,7 @@
                                             class="form__input"
                                             id="email"
                                             type="email"
+                                            name="email"
                                             placeholder="Please Enter your email"
                                         />
                                     </div>

@@ -1,6 +1,9 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+
+use App\Http\Controllers\CreditController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Auth::routes(['register' => false]);
+
+Route::post('/credits', [CreditController::class,'store'])->name('credits.store');
+Route::get('/credits', [CreditController::class,'index'])->name('credits.index');
 
 Route::get('/', function () {
     return view('welcome');
@@ -49,3 +57,6 @@ Route::get('/sign-up', function () {
 Route::get('/success', function () {
     return view('success');
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
