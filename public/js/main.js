@@ -136,4 +136,52 @@ $(document).ready(function () {
       });
     }, 250);
   });
+
+  // Playground calculation for Gas, Restaurants and Grocery
+  $(".hor-playgon__form-range").on("change", function () {
+    let rangeVal = $(this).val();
+    let subTotal = 0;
+    $(".hor-playgon__form-range").each(function () {
+      subTotal += parseFloat($(this).val());
+    });
+
+    var selectedValue = $('input[name="pr"]:checked').val();
+    console.log(selectedValue);
+    $(this).parent().find(".amount").text(rangeVal);
+    $(".hor-playgon__subtotal-amount > span").text(subTotal*12*parseFloat(selectedValue));
+  });
+
+  $("#button-pr input").on("change", function () {
+      $("#button-pr input").on("change", function () {
+    let subTotal = 0;
+    $(".hor-playgon__form-range").each(function () {
+      subTotal += parseFloat($(this).val());
+    });
+
+    var selectedValue = $('input[name="pr"]:checked').val();
+
+    $(".hor-playgon__subtotal-amount > span").text(subTotal*12*parseFloat(selectedValue));
+  });
+  });
+
+  jQuery(".steps-wrap").slick({
+    autoplay: false,
+    cssEase: "linear",
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    speed: 300,
+    touchThreshold: 40,
+    swipeToSlide: true,
+    adaptiveHeight: true,
+    infinite: false
+  });
+
+  $(".button-next").on('click', function(){
+    jQuery(".steps-wrap").slick('slickNext');
+  })
+
+  $(".button-prev").on('click', function(){
+    jQuery(".steps-wrap").slick('slickPrev');
+  })
 });
