@@ -95,21 +95,22 @@
                           </svg>
                       </div>
                       <h1 class="hero__title">
-                          3X <span>Your Rewards</span> on Every Purchase with RewardsX
+                          3X <span>Your Rewards</span> for every transaction with any credit card
                       </h1>
                       <p class="hero__dsc">
-                          Unlock the full potential of your credit cards and earn 3x rewards
-                          points with every transaction.
+                          Supercharge your credit card with RewardsX and earn $1000+ a year - absolutely free !!.
                       </p>
-                      <a href="{{ url('/sign-up') }}" class="hero__btn btn-primary">GET STARTED</a>
+                      <a href="{{ url('/sign-up') }}" class="hero__btn btn-primary">Join Waitlist now</a>
                   </div>
                   <div class="hero__highlight">
                       <div class="hero__hightlight__inner">
                           <span>3X </span>
                           <h2 class="hero__vtcl-text">
-                              <span>Bonus</span>
-                              <span>Bonus</span>
-                              <span>Bonus</span>
+                              <span>Cash Back</span>
+                              <span>Fuel Points</span>
+                              <span>Travel Points</span>
+                              <span>Air Mile points</span>
+                              <span>Bonus Points</span>
                           </h2>
                       </div>
                   </div>
@@ -145,7 +146,7 @@
           <section class="alliances-wrap">
               <div class="container">
                   <h3 class="alliances-label section-subtitle">
-                      Companies we Worked With in SInce 2015
+                      Our Partner Network includes 100+ businesses
                   </h3>
                   <div class="alliances alliances-slider">
                       <div class="alliances__item">
@@ -227,14 +228,9 @@
                                       stroke-linejoin="round" />
                               </svg>
                           </div>
-                          <h3 class="card__title">Connect Your Card</h3>
+                          <h3 class="card__title">Step 1: Select your card</h3>
                           <p class="card__dsc">
-                              Start by linking your canadian credit cards to our secure app.
-                              We support a wide range of cards to ensure you can maximize
-                              rewards across your wallet. Advanced AI analysis: “Our
-                              sophisticated AI dives deep into your credit card rewards,
-                              merchant offers, and our exclusive RewardsX deals to find the
-                              best earning opportunities for you.
+                              Start by selecting the credit cards that you own already.
                           </p>
                       </div>
                       <div class="procedure__card card card2 card-style01 gradient-bg">
@@ -259,12 +255,10 @@
                                   </defs>
                               </svg>
                           </div>
-                          <h3 class="card__title">Real Time Recommendation</h3>
+                          <h3 class="card__title">Step 2: Unlock super-power</h3>
                           <p class="card__dsc">
-                              At the point of scale, whether online or in-store, our app
-                              instantly recommends which card to use for the purchase to
-                              sensure you’re earning the maximum rewards possible. It’s like
-                              haveng a personal finance advisor in your pocket.
+                              Everytime you are about to make a transaction in-store - the app suggests you the right credit
+card.
                           </p>
                       </div>
                       <div class="procedure__card card card3 card-style01 gradient-bg">
@@ -289,14 +283,9 @@
                                   </defs>
                               </svg>
                           </div>
-                          <h3 class="card__title">Real Time Recommendation</h3>
+                          <h3 class="card__title">Step 3: Track your benefits</h3>
                           <p class="card__dsc">
-                              Figma ipsum component variant main layer. Mask undo group
-                              scrolling layer outline prototype rectangle device. Mask link
-                              horizontal stroke community underline. Arrange opacity figjam
-                              background underline selection. Layer font ellipse list list
-                              bold vertical layout. Star layout strikethrough effect vector.
-                              Opacity duplicate follower.
+                              All your benefits are tracked in one place.
                           </p>
                       </div>
                   </div>
@@ -404,7 +393,7 @@
                                                       <rect width="24" height="24" fill="white" />
                                                   </clipPath>
                                               </defs>
-                                          </svg> </span>Hotel
+                                          </svg> </span>3X Rewards
                                   </td>
                                   <td>
                                       <p class="checked flex-ctr">
@@ -442,7 +431,7 @@
                                                   d="M16 11V7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7V11M5 9H19L20 21H4L5 9Z"
                                                   stroke="#96FB4A" stroke-width="2" stroke-linecap="round"
                                                   stroke-linejoin="round" />
-                                          </svg> </span>Market
+                                          </svg> </span>Cashback Booster
                                   </td>
                                   <td>
                                       <p class="checked flex-ctr">
@@ -499,7 +488,7 @@
                                                       <rect width="24" height="24" fill="white" />
                                                   </clipPath>
                                               </defs>
-                                          </svg> </span>Grocery
+                                          </svg> </span>Fuel Points Booster
                                   </td>
                                   <td>
                                       <p class="checked flex-ctr">
@@ -544,7 +533,7 @@
                                                       <rect width="24" height="24" fill="white" />
                                                   </clipPath>
                                               </defs>
-                                          </svg> </span>Clothes
+                                          </svg> </span>Best card Feature
                                   </td>
                                   <td>
                                       <p class="checked flex-ctr">
@@ -581,7 +570,7 @@
                                               <path
                                                   d="M6.23177 6.976C5.86311 6.90925 5.53276 6.70694 5.30575 6.40889C5.07873 6.11084 4.97147 5.73862 5.00507 5.36546C5.03868 4.99231 5.21071 4.64524 5.48733 4.39254C5.76394 4.13984 6.12511 3.99981 6.49977 4H6.99977C6.99977 3.46957 7.21049 2.96086 7.58556 2.58579C7.96063 2.21071 8.46934 2 8.99977 2H14.9998C15.5302 2 16.0389 2.21071 16.414 2.58579C16.7891 2.96086 16.9998 3.46957 16.9998 4H17.4998C17.8744 3.99981 18.2356 4.13984 18.5122 4.39254C18.7888 4.64524 18.9609 4.99231 18.9945 5.36546C19.0281 5.73862 18.9208 6.11084 18.6938 6.40889C18.4668 6.70694 18.1364 6.90925 17.7678 6.976L17.3198 10.781C17.6416 11.198 17.7851 11.7255 17.7188 12.248L17.2188 16.248C17.1569 16.7463 16.9094 17.203 16.5258 17.527L16.1038 21.117C16.0751 21.3603 15.9582 21.5845 15.7751 21.7473C15.5921 21.91 15.3557 22 15.1108 22H8.88877C8.64384 22 8.40744 21.91 8.2244 21.7473C8.04137 21.5845 7.92443 21.3603 7.89577 21.117L7.47377 17.527C7.09011 17.203 6.84266 16.7463 6.78077 16.248L6.28077 12.248C6.21511 11.7254 6.35891 11.198 6.68077 10.781L6.23177 6.976ZM8.24977 7L8.60277 10H15.3988L15.7518 7H8.24878H8.24977ZM8.76677 16H15.2348L15.7348 12H8.26577L8.76577 16H8.76677ZM9.54378 18L9.77877 20H14.2228L14.4578 18H9.54278H9.54378Z"
                                                   fill="#96FB4A" />
-                                          </svg> </span>Drinks
+                                          </svg> </span>Off-line mode
                                   </td>
                                   <td>
                                       <p class="checked flex-ctr">
@@ -610,7 +599,7 @@
                                       </p>
                                   </td>
                               </tr>
-                              <tr>
+                              {{-- <tr>
                                   <td>
                                       <span class="icon">
                                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -647,7 +636,7 @@
                                           Don’t Have This Feature
                                       </p>
                                   </td>
-                              </tr>
+                              </tr> --}}
                           </tbody>
                       </table>
                   </div>
@@ -864,7 +853,7 @@
                   <div class="fancy-accordion__text">
                       <h5 class="fancy-accordion__subtitle section-subtitle">RewardsX</h5>
                       <h2 class="fancy-accordion__title section-title">
-                          Describe The Our Application
+                          RewardsX - The magic features
                       </h2>
                       <ul class="fancy-accordion__list">
                           <li class="fancy-accordion__line">
@@ -872,53 +861,45 @@
                           </li>
                           <li class="fancy-accordion__item item-1 accordion-active">
                               <h3 class="fancy-accordion__item-title accordion-tigger">
-                                  Describe The Our Application
+                                  Off-line card mode
                               </h3>
                               <div class="fancy-accordion__item-dsc">
                                   <p>
-                                      Figma ipsum component variant main layer. Scale stroke auto
-                                      draft boolean inspect invite. Arrow shadow union arrow arrow
-                                      prototype export strikethrough. Shadow export flatten stroke
-                                      pixel vertical mask stroke flows thumbnail.
+                                      Let’s you select card safely without linking your card. This allows you to know your
+benefits that you are entitled to with all your credit cards.
                                   </p>
                               </div>
                           </li>
                           <li class="fancy-accordion__item item-2">
                               <h3 class="fancy-accordion__item-title accordion-tigger">
-                                  Describe The Our Application
+                                  Linked card mode
                               </h3>
                               <div class="fancy-accordion__item-dsc">
                                   <p>
-                                      Figma ipsum component variant main layer. Scale stroke auto
-                                      draft boolean inspect invite. Arrow shadow union arrow arrow
-                                      prototype export strikethrough. Shadow export flatten stroke
-                                      pixel vertical mask stroke flows thumbnail.
+                                      By linking your card, you are supercharging your credit card. This allows you to do things
+the right way, and let’s you rack-up rewards more magically.
                                   </p>
                               </div>
                           </li>
                           <li class="fancy-accordion__item item-3">
                               <h3 class="fancy-accordion__item-title accordion-tigger">
-                                  Describe The Our Application
+                                  Best card X
                               </h3>
                               <div class="fancy-accordion__item-dsc">
                                   <p>
-                                      Figma ipsum component variant main layer. Scale stroke auto
-                                      draft boolean inspect invite. Arrow shadow union arrow arrow
-                                      prototype export strikethrough. Shadow export flatten stroke
-                                      pixel vertical mask stroke flows thumbnail.
+                                      When you are in place of business, our A.I suggest the right card for the transaction,
+therefore you make maximum in benefits.
                                   </p>
                               </div>
                           </li>
                           <li class="fancy-accordion__item item-4">
                               <h3 class="fancy-accordion__item-title accordion-tigger">
-                                  Describe The Our Application
+                                  Security & Privacy
                               </h3>
                               <div class="fancy-accordion__item-dsc">
                                   <p>
-                                      Figma ipsum component variant main layer. Scale stroke auto
-                                      draft boolean inspect invite. Arrow shadow union arrow arrow
-                                      prototype export strikethrough. Shadow export flatten stroke
-                                      pixel vertical mask stroke flows thumbnail.
+                                      We care about your privacy and we do not sell your data. RewardsX is one step closer
+to being PCI DSS 4.0 Compliant.
                                   </p>
                               </div>
                           </li>
@@ -1002,9 +983,9 @@
           <section class="faq">
               <div class="faq__inner">
                   <div class="faq__header">
-                      <h2 class="faq__title section-title">Frequently Asked Questions</h2>
+                      <h2 class="faq__title section-title">Do you have more questions?</h2>
                       <h5 class="section-subtitle faq__subtitle">
-                          Figma ipsum component variant main
+                          Check out our FAQ’s
                       </h5>
                   </div>
                   <div class="faq__items">
@@ -1013,17 +994,14 @@
                           <div class="faq__item__header collapse__trigger">
                               <div class="faq__item__collapse-icon"></div>
                               <h3 class="faq__item__title">
-                                  Morbi fringilla metus ac lacus dapibus.
+                                  What is RewardsX?
                               </h3>
                           </div>
                           <div class="faq__item__body">
                               <p class="faq__item__dsc">
-                                  Sed nec pharetra felis, in ultrices neque. Phasellus varius
-                                  semper tellus, ac imperdiet erat commodo id. Aenean lobortis
-                                  justo et velit ornare malesuada. Nam lacus orci, elementum eu
-                                  odio ac, molestie venenatis turpis. Mauris ex ipsum, dictum
-                                  gravida pretium sed, molestie nec ante. Sed ac ullamcorper
-                                  nisi.
+                                  RewardsX is a revolutionary app designed to help Canadians maximize
+their credit card rewards. By intelligently understanding your credit card and its rewards network,
+RewardsX ensures you get the most out of every transaction.
                               </p>
                           </div>
                       </div>
@@ -1032,17 +1010,14 @@
                           <div class="faq__item__header collapse__trigger">
                               <div class="faq__item__collapse-icon"></div>
                               <h3 class="faq__item__title">
-                                  What we like to do & what we don’t like to do
+                                  How does RewardsX work?
                               </h3>
                           </div>
                           <div class="faq__item__body">
                               <p class="faq__item__dsc">
-                                  Sed nec pharetra felis, in ultrices neque. Phasellus varius
-                                  semper tellus, ac imperdiet erat commodo id. Aenean lobortis
-                                  justo et velit ornare malesuada. Nam lacus orci, elementum eu
-                                  odio ac, molestie venenatis turpis. Mauris ex ipsum, dictum
-                                  gravida pretium sed, molestie nec ante. Sed ac ullamcorper
-                                  nisi.
+                                  RewardsX allows you to link your credit cards to the app. It
+then analyzes your spending patterns and provides recommendations on which card to use for
+specific transactions to maximize your rewards.
                               </p>
                           </div>
                       </div>
@@ -1051,18 +1026,13 @@
                           <div class="faq__item__header collapse__trigger">
                               <div class="faq__item__collapse-icon"></div>
                               <h3 class="faq__item__title">
-                                  Fusce fermentum tempus sapien a sagittis tellus mattis id.
-                                  Cras et enim ex.
+                                  Is RewardsX free to use?
                               </h3>
                           </div>
                           <div class="faq__item__body">
                               <p class="faq__item__dsc">
-                                  Sed nec pharetra felis, in ultrices neque. Phasellus varius
-                                  semper tellus, ac imperdiet erat commodo id. Aenean lobortis
-                                  justo et velit ornare malesuada. Nam lacus orci, elementum eu
-                                  odio ac, molestie venenatis turpis. Mauris ex ipsum, dictum
-                                  gravida pretium sed, molestie nec ante. Sed ac ullamcorper
-                                  nisi.
+                                  Yes, the consumer application of RewardsX is completely free for
+users. Enjoy all the benefits without any cost.
                               </p>
                           </div>
                       </div>
@@ -1071,17 +1041,13 @@
                           <div class="faq__item__header collapse__trigger">
                               <div class="faq__item__collapse-icon"></div>
                               <h3 class="faq__item__title">
-                                  Nunc aliquam tempus iaculis. Ut eu imperdiet velit.
+                                  How much can I earn using RewardsX?
                               </h3>
                           </div>
                           <div class="faq__item__body">
                               <p class="faq__item__dsc">
-                                  Sed nec pharetra felis, in ultrices neque. Phasellus varius
-                                  semper tellus, ac imperdiet erat commodo id. Aenean lobortis
-                                  justo et velit ornare malesuada. Nam lacus orci, elementum eu
-                                  odio ac, molestie venenatis turpis. Mauris ex ipsum, dictum
-                                  gravida pretium sed, molestie nec ante. Sed ac ullamcorper
-                                  nisi.
+                                  On average, users can earn upwards of $1000
+annually by using the app's recommendations and maximizing their credit card rewards.
                               </p>
                           </div>
                       </div>
@@ -1090,23 +1056,140 @@
                           <div class="faq__item__header collapse__trigger">
                               <div class="faq__item__collapse-icon"></div>
                               <h3 class="faq__item__title">
-                                  Nam sit amet neque auctor, dignissim augue eu, condimentum
-                                  justo.
+                                  Is my financial information safe with RewardsX?
                               </h3>
                           </div>
                           <div class="faq__item__body">
                               <p class="faq__item__dsc">
-                                  Sed nec pharetra felis, in ultrices neque. Phasellus varius
-                                  semper tellus, ac imperdiet erat commodo id. Aenean lobortis
-                                  justo et velit ornare malesuada. Nam lacus orci, elementum eu
-                                  odio ac, molestie venenatis turpis. Mauris ex ipsum, dictum
-                                  gravida pretium sed, molestie nec ante. Sed ac ullamcorper
-                                  nisi.
+                                  Absolutely. We prioritize your security
+and privacy. RewardsX uses advanced encryption and security measures to protect your data.
+Furthermore, RewardsX will be compliant with PCI DSS 4.0 standards very soon.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="faq__item gradient-bg">
+                          <div class="gradient-animated-border"></div>
+                          <div class="faq__item__header collapse__trigger">
+                              <div class="faq__item__collapse-icon"></div>
+                              <h3 class="faq__item__title">
+                                  Which credit cards are compatible with RewardsX?
+                              </h3>
+                          </div>
+                          <div class="faq__item__body">
+                              <p class="faq__item__dsc">
+                                  RewardsX supports a wide range of
+North American credit cards. You can link multiple cards from different issuers to get the best
+recommendations.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="faq__item gradient-bg">
+                          <div class="gradient-animated-border"></div>
+                          <div class="faq__item__header collapse__trigger">
+                              <div class="faq__item__collapse-icon"></div>
+                              <h3 class="faq__item__title">
+                                  How do I get started with RewardsX?
+                              </h3>
+                          </div>
+                          <div class="faq__item__body">
+                              <p class="faq__item__dsc">
+                                  Join the waiting list now, as we are preparing to
+launch. You will be the first person to know when we make the app available on Apple App store
+and Google play store.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="faq__item gradient-bg">
+                          <div class="gradient-animated-border"></div>
+                          <div class="faq__item__header collapse__trigger">
+                              <div class="faq__item__collapse-icon"></div>
+                              <h3 class="faq__item__title">
+                                  Can I use RewardsX if I only have one credit card?
+                              </h3>
+                          </div>
+                          <div class="faq__item__body">
+                              <p class="faq__item__dsc">
+                                  Yes, even with one credit card,
+RewardsX can help you maximize your rewards by providing tailored spending
+recommendations.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="faq__item gradient-bg">
+                          <div class="gradient-animated-border"></div>
+                          <div class="faq__item__header collapse__trigger">
+                              <div class="faq__item__collapse-icon"></div>
+                              <h3 class="faq__item__title">
+                                  Does RewardsX offer support for businesses?
+                              </h3>
+                          </div>
+                          <div class="faq__item__body">
+                              <p class="faq__item__dsc">
+                                  Yes, RewardsX has a B2B application that
+supports merchants with advanced AI-based insights to drive profits. Businesses are highly
+recommended to join our Merchant partner network and can contact us for more information.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="faq__item gradient-bg">
+                          <div class="gradient-animated-border"></div>
+                          <div class="faq__item__header collapse__trigger">
+                              <div class="faq__item__collapse-icon"></div>
+                              <h3 class="faq__item__title">
+                                  Who can I contact for support or more information?
+                              </h3>
+                          </div>
+                          <div class="faq__item__body">
+                              <p class="faq__item__dsc">
+                                  For support or additional
+information, you can reach out to our customer service team through our website’s contact form.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="faq__item gradient-bg">
+                          <div class="gradient-animated-border"></div>
+                          <div class="faq__item__header collapse__trigger">
+                              <div class="faq__item__collapse-icon"></div>
+                              <h3 class="faq__item__title">
+                                  How often does RewardsX update its recommendations?
+                              </h3>
+                          </div>
+                          <div class="faq__item__body">
+                              <p class="faq__item__dsc">
+                                  RewardsX continuously
+analyzes your spending patterns and the latest reward offers to provide real-time, up-to-date
+recommendations.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="faq__item gradient-bg">
+                          <div class="gradient-animated-border"></div>
+                          <div class="faq__item__header collapse__trigger">
+                              <div class="faq__item__collapse-icon"></div>
+                              <h3 class="faq__item__title">
+                                  Can I earn rewards from other loyalty programs with RewardsX?
+                              </h3>
+                          </div>
+                          <div class="faq__item__body">
+                              <p class="faq__item__dsc">
+                                  Yes, RewardsX can
+help you maximize rewards from various loyalty programs in addition to your credit card
+rewards.
                               </p>
                           </div>
                       </div>
                   </div>
               </div>
+
+              <div class="faq__inner">
+                  <div class="faq__header">
+                      {{-- <h2 class="faq__title section-title">Do you have more questions?</h2> --}}
+                      <h5 class="section-subtitle faq__subtitle">
+                          <p>If you have any other questions, feel free to contact our support team or visit our website for
+more details.</p>
+                      </h5>
+                  </div>
+                </div>
           </section>
       </main>
   @endsection
