@@ -33,6 +33,7 @@
             <li><a class="mbl-offcanvas__nav-link" href="{{ url('/b2c') }}">Join RewardsX</a></li>
             <li><a class="mbl-offcanvas__nav-link" href="{{ url('/b2b') }}">Partner</a></li>
             <li><a class="mbl-offcanvas__nav-link" href="{{ url('/security') }}">Security</a></li>
+            <li><a class="mbl-offcanvas__nav-link" href="{{ url('/spotlight') }}">Spotlight</a></li>
             <li><a class="mbl-offcanvas__nav-link" href="{{ url('/about-us') }}">About us</a></li>
             <li><a class="mbl-offcanvas__nav-link" href="{{ url('/contact-us') }}">Contact us</a></li>
           </ul>
@@ -146,6 +147,7 @@
             <li><a href="{{ url('/b2c') }}" class="header__nav-link {{ Request::is('/b2c') ? 'active-link' : '' }}">Join RewardsX</a></li>
             <li><a href="{{ url('/b2b') }}" class="header__nav-link {{ Request::is('/b2b') ? 'active-link' : '' }}">Partner</a></li>
             <li><a href="{{ url('/security') }}" class="header__nav-link {{ Request::is('/security') ? 'active-link' : '' }}">Security</a></li>
+            <li><a href="{{ url('/spotlight') }}" class="header__nav-link {{ Request::is('/spotlight') ? 'active-link' : '' }}">Spotlight</a></li>
             <li><a href="{{ url('/about-us') }}" class="header__nav-link {{ Request::is('/about-us') ? 'active-link' : '' }}">About us</a></li>
             <li><a href="{{ url('/contact-us') }}" class="header__nav-link {{ Request::is('/contact-us') ? 'active-link' : '' }}">Contact us</a></li>
           </ul>

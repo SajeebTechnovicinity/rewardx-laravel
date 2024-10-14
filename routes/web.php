@@ -57,6 +57,19 @@ Route::get('/sign-up', function () {
 Route::get('/success', function () {
     return view('success');
 });
+
+Route::get('/terms-and-condition', function () {
+    return view('terms-and-condition');
+});
+
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy');
+});
+
+Route::get('/spotlight', function () {
+    return view('spotlight');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
