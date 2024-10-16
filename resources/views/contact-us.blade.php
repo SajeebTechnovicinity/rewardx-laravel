@@ -17,28 +17,28 @@
                         <div class="form__row flex-ctr-spb">
                             <div class="form__field">
                                 <div class="gradient-animated-border"></div>
-                                <input class="form__input" name="last_name" placeholder="Last Name" type="text" />
+                                <input class="form__input" name="last_name" placeholder="Last Name" type="text" required/>
                             </div>
 
                             <div class="form__field">
                                 <div class="gradient-animated-border"></div>
-                                <input class="form__input" name="first_name" placeholder="First Name" type="text" />
+                                <input class="form__input" name="first_name" placeholder="First Name" type="text" required/>
                             </div>
                         </div>
 
                         <div class="form__field">
                             <div class="gradient-animated-border"></div>
-                            <input class="form__input" name="email" placeholder="Email" type="email" />
+                            <input class="form__input" name="email" placeholder="Email" type="email" required/>
                         </div>
 
                         <div class="form__field">
                             <div class="gradient-animated-border"></div>
-                            <input class="form__input" name="phone" placeholder="Phone Number" type="number" />
+                            <input class="form__input" name="phone" placeholder="Phone Number" type="number" required/>
                         </div>
 
                         <div class="form__field">
                             <div class="gradient-animated-border"></div>
-                            <textarea class="form__textarea" name="message" name="message" placeholder="Message"></textarea>
+                            <textarea class="form__textarea" name="message" name="message" placeholder="Message" required></textarea>
                         </div>
 
                         <div class="form__submit"><button class="form__submit-btn btn-primary">SUBMIT THE MESSAGE</button></div>
